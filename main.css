@@ -1,0 +1,116 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*-------------------seçõa header-------*/
+
+body > header {
+    background-color: rgb(207, 167, 37);
+    padding: 16px;
+}
+header .container{
+    display: flex;
+    align-items: center; 
+    justify-content:space-between;
+    
+}
+.container{    
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header .container li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    color:#fff;
+    text-decoration: none;
+}
+header h1 {
+    color: #fff;
+}
+
+
+/*============================section about-store==================*/
+#about-store{
+    background-color: #dbf0f0;
+    
+}
+#about-store .container{
+    display: flex;
+    align-items: center; 
+    justify-content:space-between;
+    /* border: #f40606 solid; */   
+}
+#about-store .container img{
+    width: 400px;
+    margin: 16px;
+}
+#about-store .container div {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+section .container div div{
+    margin: 16px;    
+}
+
+/*============================section contact============================================*/
+#contact{
+    background-color: #dbf0f0;
+}
+#contact .container {
+    display: block;
+}
+#contact .container h2{
+    margin-left: 16px;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-methods form button{
+    background-color: #034b4b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.contact-methods form button:hover{
+    background-color: #268383;
+}
+
+form textarea:focus,
+form input:focus{
+    outline-color: #186139;
+
+}
+
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social-links img{
+    width: 24px;
+}
+
+
+/*===============Footer ===================*/
+
+footer{
+    background-color: rgb(207, 167, 37);
+}

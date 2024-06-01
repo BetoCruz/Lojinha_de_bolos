@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+#header{
+    background-color: rgb(207, 167, 37);
+    padding: 16px;
+}
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container h1{
+    color: #fff;
+}
+
+#header .container li{
+    display: inline-flex;
+    margin-right: 16px;
+}
+#header .container li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*==================section our-cakes=========================*/
+
+#our-cakes,
+#special-cakes,
+#promotional-cakes {
+    display: block;
+    align-items: center;
+    background-color: #dbf0f0;
+}
+.title-our-cakes ,
+.title-special-cakes,
+.title-promotional-cakes {
+    color: #fff;
+    background-color: rgb(56, 172, 172);
+    padding-left: 100px;
+}
+
+.our-cakes,
+.special-cakes,
+.promotional-cakes{
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    padding-bottom: 20px;
+    /* border: red solid; */
+
+
+}
+section article img{
+    height: 300px;
+    margin-top: 16px;
+}
+.our-cakes article, 
+.special-cakes article,
+.promotional-cakes article {
+    padding-right: 16px;
+}
+article p {
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+article a{
+    background-color: #1c7777;
+    color: #eaeeee;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;  
+}
+article a:hover{
+    background-color: #59b1b1;
+}
+
+footer{
+    background-color: rgb(207, 167, 37);
+}
